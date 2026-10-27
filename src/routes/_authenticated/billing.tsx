@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Check, Crown, Sparkles, Zap, CreditCard, Building2, Loader2 } from "lucide-react";
 import { DashboardLayout } from "@/components/dashboard/DashboardLayout";
@@ -71,6 +71,22 @@ const SA_BANKS = [
   "ABSA", "Standard Bank", "FNB", "Nedbank",
   "Capitec", "Investec", "African Bank", "TymeBank",
 ];
+
+function TermsNote() {
+  return (
+    <p className="mt-2 text-center text-[10px] text-muted-foreground">
+      By paying you agree to our{" "}
+      <Link to="/terms" className="text-primary hover:underline">
+        Terms
+      </Link>{" "}
+      and{" "}
+      <Link to="/refund-policy" className="text-primary hover:underline">
+        Refund Policy
+      </Link>{" "}
+      (14-day action-based guarantee).
+    </p>
+  );
+}
 
 function BillingPage() {
   const [selectedPlan, setSelectedPlan] = useState<Plan>(PLANS[1]);
@@ -207,6 +223,7 @@ function BillingPage() {
             <p className="mt-2 text-center text-[10px] text-muted-foreground">
               Secure ZAR checkout · Instant EFT · Card · Capitec Pay
             </p>
+            <TermsNote />
           </div>
 
           {/* Lemon Squeezy */}
@@ -225,7 +242,7 @@ function BillingPage() {
               <li className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-primary" /> Visa, Mastercard, Amex</li>
               <li className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-primary" /> Apple Pay & Google Pay</li>
               <li className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-primary" /> Auto-invoicing & VAT handling</li>
-              <li className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-primary" /> Cancel anytime</li>
+              <li className="flex items-center gap-2"><Check className="h-3.5 w-3.5 text-primary" /> Cancel by email request (see Refund Policy)</li>
             </ul>
 
             <button
@@ -242,11 +259,12 @@ function BillingPage() {
             <p className="mt-2 text-center text-[10px] text-muted-foreground">
               Redirects to lemonsqueezy.com secure checkout
             </p>
+            <TermsNote />
           </div>
         </section>
 
         <p className="text-center text-xs text-muted-foreground">
-          Need an invoice or custom plan? <a href="mailto:billing@thetrendsetta.com" className="text-primary hover:underline">Contact billing</a>.
+          Need an invoice or custom plan? <a href="mailto:Info@thetrendsettaofficial.co.za" className="text-primary hover:underline">Contact billing</a>.
         </p>
       </div>
     </DashboardLayout>

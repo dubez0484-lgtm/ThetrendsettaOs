@@ -151,9 +151,10 @@ function TermsPage() {
               may include applicable taxes.
             </p>
             <p>
-              You may cancel a subscription at any time from your billing
-              settings. Cancellation stops future renewals; access continues
-              until the end of the current billing period. See our{" "}
+              You may cancel a subscription at any time by emailing us, as
+              described in our Refund Policy. Cancellation stops future
+              renewals; access continues until the end of the current paid
+              period. See our{" "}
               <Link to="/refund-policy" className="text-primary hover:underline">
                 Refund Policy
               </Link>{" "}
@@ -206,10 +207,10 @@ function TermsPage() {
           <p>
             Questions about these Terms? Email{" "}
             <a
-              href="mailto:support@thetrendsetta.com"
+              href="mailto:Info@thetrendsettaofficial.co.za"
               className="text-primary hover:underline"
             >
-              support@thetrendsetta.com
+              Info@thetrendsettaofficial.co.za
             </a>
             .
           </p>

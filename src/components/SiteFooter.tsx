@@ -25,7 +25,7 @@ export function SiteFooter() {
             <Instagram className="size-3.5" /> Instagram
           </a>
           <a
-            href="mailto:hello@thetrendsetta.com"
+            href="mailto:Info@thetrendsettaofficial.co.za"
             className="inline-flex items-center gap-1.5 hover:text-primary transition"
           >
             <Mail className="size-3.5" /> Contact

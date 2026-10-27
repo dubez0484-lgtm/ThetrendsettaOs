@@ -40,7 +40,7 @@ export function CTAFooter() {
           <div className="flex items-center gap-6 text-xs">
             <Link to="/terms" className="hover:text-foreground transition">Terms</Link>
             <Link to="/refund-policy" className="hover:text-foreground transition">Refund Policy</Link>
-            <a href="mailto:support@thetrendsetta.com" className="hover:text-foreground transition">Contact</a>
+            <a href="mailto:Info@thetrendsettaofficial.co.za" className="hover:text-foreground transition">Contact</a>
           </div>
         </footer>
       </div>
