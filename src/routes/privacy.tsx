@@ -121,7 +121,7 @@ function PrivacyPage() {
           <Section title="5. Sharing and processors">
             <p>
               We do not sell personal information. We share it only with service providers necessary to
-              run the platform — cloud hosting and database providers, our payment processor (Paystack),
+              run the platform — cloud hosting and database providers, our payment processor (PayFast),
               email delivery providers, and AI model providers used to generate content you request.
               Each processes data only on our instructions.
             </p>
@@ -147,8 +147,11 @@ function PrivacyPage() {
             <p>
               You may request access to, correction of, or deletion of your personal information, object
               to processing, or withdraw consent. Email{" "}
-              <a href="mailto:hello@thetrendsetta.com" className="text-primary hover:underline">
-                hello@thetrendsetta.com
+              <a
+                href="mailto:Info@thetrendsettaofficial.co.za"
+                className="text-primary hover:underline"
+              >
+                Info@thetrendsettaofficial.co.za
               </a>{" "}
               and we will respond within a reasonable period. You may also lodge a complaint with the
               South African Information Regulator.
@@ -173,8 +176,11 @@ function PrivacyPage() {
             <p>
               We may update this policy and will post the new date at the top. Questions or privacy
               requests:{" "}
-              <a href="mailto:hello@thetrendsetta.com" className="text-primary hover:underline">
-                hello@thetrendsetta.com
+              <a
+                href="mailto:Info@thetrendsettaofficial.co.za"
+                className="text-primary hover:underline"
+              >
+                Info@thetrendsettaofficial.co.za
               </a>
               .
             </p>
